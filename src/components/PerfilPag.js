@@ -2,7 +2,10 @@ import React, { useEffect, useSate} from "react";
 
 const PerfilPag = () => {
   return (
-    <h1>Página del Perfil</h1>
+    <>
+        <h1>Página de Inicio</h1>
+        <p> Hasta Pronto</p>
+    </>
   )
 }
 
