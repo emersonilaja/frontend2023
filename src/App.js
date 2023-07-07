@@ -1,12 +1,14 @@
 import React, { useEffect, useSate} from "react";
 import { Routes, Route, Link } from "react-router-dom";
+import InicioPag from "./components/InicioPag";
+import PerfilPag from "./components/PerfilPag";
 
 const App = () => {
   return (
-    <>
-      <h1>Nueva página de inicio</h1>
-      <p>Hola desde aquí</p>
-    </>
+    <Routes>
+      <Route path="/" element={<InicioPag />}/>
+      <Route path="/perfil" element={<PerfilPag />}/>
+    </Routes>
   )
 }
 
